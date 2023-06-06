@@ -1,6 +1,6 @@
 /*
  * File: 13-insert_number.c
- * Auth: yabets
+ * Auth: Abeniezer Kifle
  */
 
 #include "lists.h"
