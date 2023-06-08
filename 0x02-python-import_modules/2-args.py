@@ -3,7 +3,7 @@
 if __name__ == "__main__":
     import sys
     list = sys.argv
-    count = len(list)
+    count = len(list - 1)
     arg = ''
     if(count == 1):
         arg = 'argument:'
@@ -15,4 +15,4 @@ if __name__ == "__main__":
     print('{} {}'.format(count, arg))
 
     for i in range(count):
-        print('{}: {}'.format(i+1, list[i]))
+        print('{}: {}'.format(i + 1, list[i + 1]))
