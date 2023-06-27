@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""This is an empty class"""
+# 0-square.py
+# Abeniezer Kifle
+"""Define a class Square."""
 
 class Square:
     """A Square is a rectangle that have
