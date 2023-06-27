@@ -1,3 +1,11 @@
+class MyFirstClass:
+    id = 10
+    def __init__(self, name, id):
+        self.name=name
+        MyFirstClass.id = id
+    def getName(self):
+        return self.name
+
 def my_func(x,y):
     return x*y
 
@@ -21,3 +29,9 @@ matrix = [
 new_matrix = square_matrix_simple(matrix)
 print(new_matrix)
 print(matrix)
+
+first = MyFirstClass('Abeni', 50)
+print(first.getName())
+print(first.id)
+print(first.name)
+print(MyFirstClass.id)
