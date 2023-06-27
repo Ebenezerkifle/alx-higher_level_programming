@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 0-square.py
+# 3-square.py
 # Abeniezer Kifle
 """Define a class Square."""
 
