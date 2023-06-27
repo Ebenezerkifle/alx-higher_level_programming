@@ -2,6 +2,6 @@
 """This is an empty class"""
 
 class Square:
-    """Since we can't have a class with only
-       one line we need to add pass"""
+    """A Square is a rectangle that have
+    an equale length of the height and width"""
     pass
