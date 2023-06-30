@@ -20,6 +20,7 @@ def square_matrix_simple(matrix=[[]]):
     result = [list(map(lambda x: x*x , row)) for row in matrix]
     return result
 
+
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
@@ -35,3 +36,10 @@ print(first.getName())
 print(first.id)
 print(first.name)
 print(MyFirstClass.id)
+
+
+for i in range(2, 10, 2):
+    print(i, end=" ")
+print("")
+for i in range(10, 0, -1):
+    print(i, end=" ")
