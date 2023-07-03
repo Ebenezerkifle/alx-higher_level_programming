@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""A rectangle class with instance variables height & width
+# 1-rectangle.py
+# Abeniezer kifle
+"""A Rectangle class with instance variables height & width
   & a methods to return an area and perimeter of a rectangle
 """
+
+
 class Rectangle:
 
     def __init__(self, width=0, height=0):
