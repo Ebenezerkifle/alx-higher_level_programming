@@ -5,6 +5,9 @@ class MyFirstClass:
         MyFirstClass.id = id
     def getName(self):
         return self.name
+    
+#    def __doc__():
+#        print("plants")
 
 def my_func(x,y):
     return x*y
@@ -19,7 +22,6 @@ def square_matrix_simple(matrix=[[]]):
     print(matrix)
     result = [list(map(lambda x: x*x , row)) for row in matrix]
     return result
-
 
 matrix = [
     [1, 2, 3],
@@ -37,9 +39,17 @@ print(first.id)
 print(first.name)
 print(MyFirstClass.id)
 
-
 for i in range(2, 10, 2):
     print(i, end=" ")
-print("")
+print("--------")
 for i in range(10, 0, -1):
     print(i, end=" ")
+
+class User:
+    id = 1
+
+u = User()
+u.id = 89
+print("", end="\n")
+print(User.id)
+print(u.id)
