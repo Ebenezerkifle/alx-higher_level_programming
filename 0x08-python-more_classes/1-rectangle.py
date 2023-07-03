@@ -1,6 +1,11 @@
 #!/usr/bin/python3
+# 1-rectangle.py
+# Abeniezer kifle
 """A rectangle class with instance variables height & width"""
+
+
 class Rectangle:
+    """Represent a rectangle."""
 
     def __init__(self, width=0, height=0):
         self.__width = width
