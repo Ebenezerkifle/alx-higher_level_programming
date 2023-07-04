@@ -53,3 +53,20 @@ u.id = 89
 print("", end="\n")
 print(User.id)
 print(u.id)
+l1 = [1, 2, 3]
+l2 = l1
+l1.append(4)
+print(l2)
+
+l1 = [1, 2, 3]
+l2 = l1
+l1 = l1 + [4]
+print(l2)
+
+def assign_value(n, v):
+    n = v
+
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
