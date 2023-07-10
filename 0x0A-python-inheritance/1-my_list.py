@@ -3,6 +3,7 @@
 # Abeniezer Kifle
 """Defines an object attribute lookup function."""
 
+
 class MyList(list):
     """MyList class that inherits from list."""
 
