@@ -3,6 +3,7 @@
 # Abeniezer Kifle
 """Defines an object attribute lookup function."""
 
+
 def is_same_class(obj, a_class):
     """A function checks is an object is an instance of a class
     

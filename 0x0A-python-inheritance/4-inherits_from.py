@@ -3,6 +3,7 @@
 # Abeniezer Kifle
 """Only Sub class of"""
 
+
 def inherits_from(obj, a_class):
     """a function to check if the object is an instance of a class that is inherited
        from a specified class
