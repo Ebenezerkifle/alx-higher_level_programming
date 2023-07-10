@@ -2,8 +2,8 @@
 # 10-square.py
 # Abeniezer Kifle
 """Full Rectangle class"""
-
 Rectangle = __import__('9-rectangle').Rectangle
+
 
 class Square(Rectangle):
     """A Square class that inherits a Rectangle class"""
@@ -14,10 +14,6 @@ class Square(Rectangle):
         Args:
             size (int): The size of the new square.
         """
-        super().integer_validator('Size', size)
+        self.integer_validator('size', size)
         super().__init__(size, size)
         self.__size = size
-
-    def area(self):
-        """the function to return the area of a square"""
-        return self.__size * self.__size
