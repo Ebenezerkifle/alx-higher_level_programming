@@ -3,6 +3,7 @@
 # Abeniezer Kifle
 """MyInt class which is subclass of int"""
 
+
 class MyInt(int):
     """Invert int operators == and !=."""
 
