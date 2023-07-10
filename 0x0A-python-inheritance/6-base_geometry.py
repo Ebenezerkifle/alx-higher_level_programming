@@ -3,6 +3,7 @@
 # Abeniezer Kifle
 """an empty BaseGeometry class"""
 
+
 class BaseGeometry:
     """Represent base geometry."""
 
