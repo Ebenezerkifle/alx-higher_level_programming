@@ -16,7 +16,6 @@ class Square(Rectangle):
         """
         super().integer_validator('Size', size)
         super().__init__(size, size)
-        self.__size = size
 
     def __str__(self):
         """returning a string format of a square class"""
