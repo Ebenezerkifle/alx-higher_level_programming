@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 10-square.py
+# 11-square.py
 # Abeniezer Kifle
 """Full Rectangle class"""
 Rectangle = __import__('9-rectangle').Rectangle
@@ -14,7 +14,7 @@ class Square(Rectangle):
         Args:
             size (int): The size of the new square.
         """
-        super().integer_validator('Size', size)
+        self.integer_validator('Size', size)
         super().__init__(size, size)
         self.__size = size
 
