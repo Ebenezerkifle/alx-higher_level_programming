@@ -2,7 +2,6 @@
 #5-save_to_json_file.py
 # Abeniezer Kifle
 """Defins a function that writes an object to a text file"""
-
 import json
 
 
