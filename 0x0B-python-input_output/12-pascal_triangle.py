@@ -17,11 +17,11 @@ def pascal_triangle(n):
 
     if n == 1:
         return [list_1]
-    
+
     list_2 = [1, 1]
     if n == 2: 
         return [list_1, list_2]
-    
+
     triangle = [list_1, list_2]
     for i in range(2, n):
         temp_list = []
