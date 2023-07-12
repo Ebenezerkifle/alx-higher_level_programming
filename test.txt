@@ -1,4 +1,6 @@
 This is a text file 
+Doing22
+Doing22
 to check if my function is working
 python is being my best language so far
-what a funtastic day!
+what a funtastic day!Done

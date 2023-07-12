@@ -19,7 +19,7 @@ def append_after(filename="", search_string="", new_string=""):
             if line == "":
                 break
             st += line
-            if line.__contains__(search_string):
+            if search_string in line:
                 st += new_string + "\n"
     with open(filename, mode='w', encoding='utf-8') as file:
-        file.writelines(st)
+        file.write(st)
