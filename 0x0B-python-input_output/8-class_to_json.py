@@ -10,4 +10,4 @@ def class_to_json(obj):
          obj: an object as an input
        Returns: the directory description for JSON serialization.
     """
-    return obj.__dict__
+    return obj.__dict__()
