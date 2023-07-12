@@ -22,4 +22,4 @@ def append_after(filename="", search_string="", new_string=""):
             if line.__contains__(search_string):
                 st += new_string + "\n"
     with open(filename, mode='w', encoding='utf-8') as file:
-        file.write(st)
+        file.writelines(st)
