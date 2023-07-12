@@ -1,0 +1,4 @@
+This is a text file 
+to check if my function is working
+python is being my best language so far
+what a funtastic day!
