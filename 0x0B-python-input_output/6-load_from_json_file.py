@@ -1,16 +1,13 @@
 #!/usr/bin/python3
-#6-load_from_json_file.py
-# Abeniezer Kifle
-"""Defins a function that creates an object from a JSON file"""
+"""
+Contains the "load_from_json_file" function
+"""
+
 import json
 
 
 def load_from_json_file(filename):
-    """A function to create an object from a json file
-
-       Args:
-          filename: a name of a json file.
-    """
-    with open(filename, mode='r', encoding='utf-8') as myFile:
-        json_string = myFile.read()
-        return json.loads(json_string)
+    """creates an Object from a "JSON file" """
+    with open(filename, 'r', encoding='utf-8') as file:
+        create_obj = json.load(file)
+        return create_obj
